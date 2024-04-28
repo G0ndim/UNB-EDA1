@@ -63,20 +63,21 @@ void insere_v_r(int x, int k, int v[], int n){
 
 /*
 Um subvetor de um vetor v é o que sobra depois que
-alguns dos elementos de v s ã o apagados .
+alguns dos elementos de v são apagados.
 2 Por exemplo , 12 13 10 3 é um subvetor de 11 12 13
-11 10 9 7 3 3 mas n ã o de 11 12 10 11 13 9 7 3 3.
-3 Escreva uma fun ç ã o que decida se x [0.. m - 1] é subvetor
+11 10 9 7 3 3 mas não de 11 12 10 11 13 9 7 3 3.
+3 Escreva uma função que decida se x [0.. m - 1] é subvetor
 de v [0.. n - 1]. 
 */
 
-int subvetor(int v[], int n, int x[], int m);
+int subvetor(int v[], int n, int x[], int m){
+
+}
 
 
 /*
-Suponha que um vetor v [1.. n ] cont é m uma permuta ç ã o de
-1.. n .
-2 Escreva uma fun ç ã o que inverta essa permuta ç ã o : se v
+Suponha que um vetor v [1.. n ] cont é m uma permutação de 1.. n .
+2 Escreva uma função que inverta essa permuta ç ã o : se v
 [ i ] = j no vetor original ,queremos ter v[j] = i no
 fim da execução da função .
 */
