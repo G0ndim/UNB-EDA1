@@ -1,5 +1,5 @@
-#include "vetor.h"
-
+#ifndef VETOR
+#define VETOR
 
 // procura x em um vetor v[] de tamanho n
 int busca_v (int x, int v[], int n){
@@ -28,7 +28,6 @@ int remove_v(int k , int v[], int n){
 }
 
 // versao recursiva
-
 int remove_v_r(int k, int v[], int n){
   int x = v[k];
   if(k < n -1){
@@ -70,9 +69,7 @@ alguns dos elementos de v são apagados.
 de v [0.. n - 1]. 
 */
 
-int subvetor(int v[], int n, int x[], int m){
-
-}
+int subvetor(int v[], int n, int x[], int m);
 
 
 /*
@@ -83,3 +80,5 @@ fim da execução da função .
 */
 
 void inverte(int i, int v[], int tamanho_maximo);
+
+#endif
